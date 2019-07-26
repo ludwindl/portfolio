@@ -1,5 +1,5 @@
-@import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+/*@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");*/
 
 /*
 	Prologue by HTML5 UP
@@ -7,7 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
+/*html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -23,17 +23,17 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;}*/
 
-article, aside, details, figcaption, figure,
+/*article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;}*/
 
-body {
+/*body {
 	line-height: 1;
-}
+}*/
 
-ol, ul {
+/*ol, ul {
 	list-style: none;
 }
 
@@ -44,54 +44,54 @@ blockquote, q {
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
-	}
+	}*/
 
-table {
+/*table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+}*/
 
-body {
+/*body {
 	-webkit-text-size-adjust: none;
-}
+}*/
 
-mark {
+/*mark {
 	background-color: transparent;
 	color: inherit;
-}
+}*/
 
-input::-moz-focus-inner {
+/*input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
-}
+}*/
 
-input, select, textarea {
+/*input, select, textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-}
+}*/
 
 /* Basic */
 
-	html {
+	/*html {
 		box-sizing: border-box;
-	}
+	}*/
 
-	*, *:before, *:after {
+	/*, *:before, *:after {
 		box-sizing: inherit;
-	}
+	}*/
 
-	body {
+	/*body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
-	}
+	}*/
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		/*body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
@@ -100,17 +100,19 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-		}
+		}*/
 
-	input, textarea, select {
+	/*input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
-	}
+	}*/
 
-	h1, h2, h3, h4, h5, h6 {
+	/*last copied*/
+	
+	/*h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
@@ -208,17 +210,13 @@ input, select, textarea {
 
 	br.clear {
 		clear: both;
-	}
+	}*/
 
 /* Container */
 
-	.container {
-		margin: 0 auto;
-		max-width: 100%;
-		width: 1400px;
-	}
+	
 
-		@media screen and (min-width: 961px) and (max-width: 1880px) {
+	/*	@media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
 				width: 1200px;
@@ -256,20 +254,20 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		}
+		}*/
 
 /* Row */
 
-	.row {
+	/*.row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
-	}
+	}*/
 
-		.row > * {
+		/*.row > * {
 			box-sizing: border-box;
-		}
+		}*/
 
 		.row.gtr-uniform > * > :last-child {
 			margin-bottom: 0;
@@ -455,9 +453,9 @@ input, select, textarea {
 			margin-left: -40px;
 		}
 
-			.row > * {
+			/*.row > * {
 				padding: 40px 0 0 40px;
-			}
+			}*/
 
 			.row.gtr-uniform {
 				margin-top: -40px;
