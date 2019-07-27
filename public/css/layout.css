@@ -1,0 +1,39 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;}
+    
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+input::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+/*basic*/
+
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1400px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+}
+
+.row > * {
+    box-sizing: border-box;
+    padding: 40px 0 0 40px;
+    
+}
